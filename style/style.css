@@ -1,0 +1,492 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+.vvv {
+    text-decoration: none;
+}
+.navigacion {
+    display: flex;
+    text-decoration-line: none;
+}
+.navigacion li {
+    margin-left: 30px;
+    list-style: none;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+.signUp {
+    padding: 12px 22px 12px 22px;
+    border-radius: 10px;
+    background-color: #4D77FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.signUp:hover {
+    background-color: #2a2b2e;
+}
+.signIn {
+    padding: 12px 22px 12px 22px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.621);
+    cursor: pointer;
+}
+.signIn:hover {
+background-color: #b9becf;}
+.block1 {
+    display: flex;
+    justify-content: space-between;
+}
+.block1-text h1 {
+    font-family: Manrope;
+font-size: 54px;
+font-weight: 700;
+margin-top: 50px;
+width: 650px;
+}
+.block1-text p {
+    font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+color:#696969;
+margin: 26px 0;
+width: 600px;
+}
+.block1-text button {
+left: 100px;
+padding: 16px 36px 16px 36px;
+gap: 10px;
+border-radius: 10px;
+background-color: #4D77FF;
+color: white;
+border: none;
+cursor: pointer;
+}
+.block1-text button:hover {
+    background-color: #888fa5;
+}
+ 
+
+/**/
+.block2 {
+    margin: 100px 0;
+}
+.block-text2 h4 {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4D77FF;
+   text-align: center;
+}
+.block-text2 h2 {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+    color: #121212;
+    text-align: center;
+}
+.card {
+    justify-content: space-between;
+    background-color:white;
+    border-top: 4px solid rgba(15, 71, 240, 0.988) ;
+    border-radius: 0 0 15px 15px;
+    width: 317px;
+    padding: 40px 40px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.card h3 {
+    font-family: Manrope;
+    margin: 14px 0 12px;
+    color: black;
+    width: 300px;
+}
+.card p {
+    font-family: Manrope;
+    color: #696969;
+    width: 250px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px;
+}
+
+
+/**/
+.block3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+.position-box {
+    display: flex;
+    align-items: center;
+    width:202px;
+    margin: 10px;
+    gap: 10px;
+}
+.position {
+    width: 202px;
+    height: 256px;
+    background-color: white;
+    padding: 18px 30px 18px 30px;
+    border-radius: 10px;
+    margin-left: 200px; 
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.mvm {
+    width:531px;
+margin: 10px;
+}
+.mvm h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4D77FF;
+    font-family: Manrope;
+}
+.mvm h1 {
+font-size: 32px;
+font-weight: 700;
+color: #121212;
+font-family: Manrope;
+width: 500px;
+}
+.mvm p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #696969;
+    font-family: Manrope;
+    width: 540px;
+    margin: 12px 0 10px;
+}
+
+.button button{
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px;
+ background-color: #EDF1FF;
+ color: #4D77FF;
+ border: none;
+ border-radius: 10px;
+ cursor: pointer;
+}
+.button button:hover {
+    background-color: rgba(0, 255, 255, 0.095);
+}
+.aiba {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.button2 button{
+    margin-top: 20px;
+    width: 150px;
+padding: 10px;
+background-color: #4D77FF;
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+.button2 button:hover {
+    background-color: #0b173a;
+}
+.mvm-p {
+    margin: 20px 0;
+}
+
+
+/**/
+.block4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 100px 0;
+}
+.suga {
+    width:660px;
+    margin: 10px;
+}
+.bui {
+    width: 611px;
+top: 2079px;
+left: 108px;
+gap: 0px;
+border: 1px;
+}
+.suga h3 {
+    font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+color: #4D77FF;
+}
+.suga h1 {
+    font-family: Manrope;
+font-size: 32px;
+font-weight: 700;
+color: #121212;
+width: 500px;
+}
+.suga p {
+    font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+color: #696969;
+width: 460px;
+margin: 12px 0 10px;
+}
+.button3 button{
+    margin-top: 20px;
+    width: 220px;
+padding: 15px;
+background-color: #4D77FF;
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+.button3 button:hover {
+    background-color: #0b173a;
+}
+.block-text4 h4 {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4D77FF;
+   text-align: center;
+}
+.block-text4 h2 {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+    color: #121212;
+    text-align: center;
+    width: 450px;
+    margin: 0 500px;
+}
+.card1 {
+    justify-content: space-between;
+    background-color:white;
+    border-top: 4px solid rgba(15, 71, 240, 0.988) ;
+    border-radius: 0 0 10px 10px;
+    width: 287px 193px;
+    padding: 60px 90px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.cards1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 200px;
+}
+.card1 h1 {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;    
+    color: #121212;
+}
+.card1 h3 {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #121212;
+    margin: 12px 0 8px;
+}
+.card1 p {
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #696969;
+}
+
+
+/**/
+.block5 {
+    margin: 100px 0;
+}
+.block5 h1 {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+    color:#121212;
+   text-align: center;
+}
+.block5 p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    color: #696969;
+    text-align: center;
+    padding: 8px;
+}
+.block-9{
+    display: flex;
+    justify-content:left;
+   margin-top: 10px;
+    margin: 120px 10px;
+}
+.lol {
+    width: 400px ;
+    height: 360px;
+    border: 4px solid #4D77FF;
+}
+.doctor img {
+    width: 400px;
+}
+.doctor {
+    position: relative;
+    right: 480px;
+    top: -50px;
+}
+.rmv p {
+    width: 480px;
+    font-family: Manrope;
+font-size: 25px;
+font-weight: 400;
+margin-left: -300px;
+}
+.rmv h3 {
+    text-align:start;
+    font-family: Manrope;
+    margin-left: -300px;
+}
+.rmv h4 {
+    font-family: Manrope;
+    margin-left: -300px;
+}
+
+.aibar {
+    margin-top: 150px;
+}
+
+/**/
+.fotter {
+   display: flex;
+  margin: 100px ;  
+font-family: Manrope;
+margin-left: -100px;
+}
+.jkv {
+    display: flex;
+gap: 50px;
+}
+.lil li {
+    list-style: none;
+}
+.card9 h3 {
+    padding: 10px;
+}
+.card9 li {
+    padding: 5px 5px;
+    width: 150px;
+}
+.footer-logo p {
+    width: 490px;
+    padding: 10px 0;
+}
+
+/*  */
+.vvf {
+    text-decoration: none;
+    margin: 2px 25px;
+    color: #552c4eb2;
+    font-weight: 800;
+}
+.container1 {
+    width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+.id {
+    background-image: url(../img/flat-landscape-beautiful-purple-colored-forest_205077-670.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input1 {
+    align-items:center;
+    margin: 0 auto;
+    list-style: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 250px; 
+    background: rgba(222, 154, 213, 0.358);
+    backdrop-filter: blur(2px);
+   
+}
+.input1 h3 {
+    font-family: Manrope;
+    margin: 20px;
+    padding: 10px;
+}
+.bob h1 {
+    font-family: Manrope;
+    text-align: center;
+    margin: 30px;
+}
+.input1 vvv {
+    width: 500px;
+    height: 400px;
+    background: #fff5;
+    backdrop-filter: blur(10px);
+    width: 250x;
+}
+.mom {
+    background: rgba(228, 224, 215, 0.358);
+    backdrop-filter: blur(20px);
+    width: 200px;
+    height: 30px;
+    margin: 6px 20px;
+    padding: 8px;
+    align-items: center;
+    color: #EDF1FF;
+    border-radius: 10px;
+    border: none;
+}
+.input1 h2 {
+    text-align: center;
+    font-family: Manrope;
+    font-weight: 700;
+    color: beige;
+}
+.login {
+    font-family: Manrope;
+    background: rgba(249, 248, 245, 0.86);
+    backdrop-filter: blur(20px);
+    width: 200px;
+    height: 30px;
+    margin: 6px 20px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+.input1 h4 {
+    font-family: Manrope;
+    margin: 2px 20px;
+    color: #EDF1FF;
+}
